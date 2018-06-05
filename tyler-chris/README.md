@@ -1,22 +1,24 @@
 # Project Name
 
-**Author**: Tyler Pearson && Chris Chappman
-**Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
+**Author**: Tyler Pearson && Chris Chapman
+**Version**: 1.0.0 
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+This project was built to allow both mobile and desktop devcices to access out beautiful blog with the proper sizing. For mobile we wanted a hamburger menue for the nav menu and dektop just a horizontal set of buttons
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+Wireframre HTML from top to bottom
+style with CSS top down
+Add a hover CSS trait to hamburger menu to pop up nav menu
+make it so the site will scale to device using media queries
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+We used just HTML and CSS with mediaQueries.
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
+
+06-05-18 1:44pm: website is at functional state
 
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
--->
+
