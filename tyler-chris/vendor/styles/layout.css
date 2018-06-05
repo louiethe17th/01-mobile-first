@@ -1,13 +1,19 @@
 
-body > header { 
-  background-color: #ffe8a9; 
-  padding-bottom: 1em; 
-}
+
 .clearfix {
   overflow: auto; 
 }
 .heading-group-h1 { 
   float: left; 
+}
+
+h1 { 
+  font-size: 3em;
+}
+
+h2 { 
+  font-size: 2em;
+  
 }
 .icon-menu {
   font-size: 3em; 
@@ -17,9 +23,7 @@ body > header {
   padding: 0;
   display: none;  
 }
-.icon-menu:hover + .nav-menu {
-  display: block; 
-}
+
 li {
   display: inline-block; 
   width: 100%; 
@@ -40,24 +44,3 @@ time, address {
   display: inline; 
 }
 
- @media only screen and (min-width: 640px) { 
-    .icon-menu {
-      display: none;
-    }
-    .heading-group-h1 { 
-      width: 100%; 
-    }
-    .nav-menu {
-      display: block; 
-      width: 100%; 
-    }
-    .nav-menu li {
-      display: inline; 
-      padding: .3em 2em; 
-      border: none; 
-    }
-    .nav-menu a {
-      text-decoration: none; 
-      color: grey; 
-    }
-  } 
