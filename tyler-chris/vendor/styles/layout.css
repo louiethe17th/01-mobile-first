@@ -1,15 +1,41 @@
 
+header {
+  background-color: #ffe8a9; 
+
+}
+.heading-group-h1 { 
+  float: left; 
+}
+
+.icon-menu {
+  font-size: 3em; 
+}
+.nav-menu {
+  /* float: left;  */
+  margin: 0; 
+  padding: 0;
+  display: none;  
+}
+
+.icon-menu:hover + .nav-menu {
+  display: block; 
+}
+li {
+  display: inline-block; 
+  width: 100%; 
+  border-bottom: black solid 1px; 
+  margin: 0;
+  padding: .3em 0; 
+  
+}
+
+article h1 { 
+  background-color: red; 
+}
 
 
 
-
-
-
-
-
-
-
- /* @media only screen and (min-width: 640px) { 
+ @media only screen and (min-width: 640px) { 
     body {
       background-color: green;
       color: yellow;
@@ -17,4 +43,7 @@
     .icon-menu {
       display: none;
     }
-  }  */
+    .nav-menu {
+
+    }
+  } 

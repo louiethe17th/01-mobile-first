@@ -16,6 +16,7 @@
   <link rel="stylesheet" type="text/css" href="vendor/styles/base.css" >
   <link rel="stylesheet" type="text/css" href="vendor/styles/layout.css" >
   <link rel="stylesheet" type="text/css" href="vendor/styles/module.css" >
+  <link rel="stylesheet" type="text/css" href="vendor/styles/state.css" >
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets DONE-->
   <!-- Base covers things that apply to everything in the page, layout structures the page, Module covers block type elements such as headings and P tags, is last so that is does not mess up layout or base. -->
@@ -38,7 +39,7 @@
     <nav>
       <!-- TODO: Add a hamburger menu icon here, which will show/hide depending on screen width (desktop vs. mobile). DONE-->
       <div class="icon-menu"></div>
-      <ul>
+      <ul class="nav-menu">
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
         <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
